@@ -1,0 +1,25 @@
+{
+  "name": "textile-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@textile/hub": "^5.1.0",
+    "dotenv": "^8.2.0",
+    "emittery": "^0.8.1",
+    "express": "^4.17.1",
+    "isomorphic-ws": "^4.0.1",
+    "nodemon": "^2.0.6",
+    "socket.io": "^3.0.4"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "jdenticon": "^3.1.0",
+    "lodash": "^4.17.20"
+  }
+}
